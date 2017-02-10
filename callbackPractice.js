@@ -127,7 +127,7 @@ each(names, function(item, indice){
 
 function each(arr,cb) {
   for (name in arr){
-    cb(arr[name],name)
+    cb(arr[name],arr.indexOf(name))
   }
 }
 
